@@ -16,11 +16,15 @@ Below, please find short discription of assigment requirements:
 So here is short description in 6 steps of my script that is in run_analysis.R:
 
 A. Downloading data for the project. All data are in zip file so unzip in R is used.
+
 1. In first step I'm reading all necessary data using "read.table". There are train and test data sets which are merged using "rbind" - train and test data has the same length of 536 variables.
-Note: in this step first requirement is fulfilled - training and test sets are now one data frame. 
+
 2. In second step I'm creating a data frame that contains only columns with mean and standard deviation for each measurment using "grep". Note: in this step second requirement is fulfilled.
+
 3. In third step to the existing data frame the column with activity names is added using "merge".
+
 4. In fourth step to appropriately label data frame with descriptive variable names gsub function is used to clean column names to make them easier to read.
+
 5. Finally, thanks to dplyr I'm creating a independent and tidy data set with the average of each variable for each activity and each subject. And that's it.
 
 For more details please check run_analysis which is quite nicely described R code.
