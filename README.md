@@ -28,6 +28,6 @@ A. Downloading data for the project. All data are in zip file so unzip in R is u
 5. Finally, thanks to dplyr I'm creating a independent and tidy data set with the average of each variable for each activity and each subject. And that's it.
 
 For more details please check run_analysis which is quite nicely described R code.
-In features_info.txt you can find further discription on features(column names) that are measured.
+In codebook you can find further discription on features(column names) that are measured.
 
 Regards.
