@@ -1,5 +1,24 @@
 Getting-and-cleaning-data
 =========================
+Hello!
+This is my getting nad cleaning data repository created to be evaluated under "Peer Assigment".
+
+Below, please find short discription of assigment requirements:
+
+ You should create one R script called run_analysis.R that does the following:
+
+    1.Merges the training and the test sets to create one data set.
+    2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+    3.Uses descriptive activity names to name the activities in the data set
+    4.Appropriately labels the data set with descriptive variable names. 
+    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+So here is short disription in 6 steps of my script that is in run_analysis.R:
+
+1. Downloading data for the project. All data are in zip file so unzip in R is used.
+2. Second step is to read all necesery data from txt files that were in zip file.I'm doing this by
+
+
 # Getting and cleaning data project
 # 1. Downloading data for the project ----
 library(reshape2)
